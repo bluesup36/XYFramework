@@ -1,5 +1,6 @@
 ﻿using System;
 using XYFramework.Encrypt;
+using XYFramework.HttpRequest;
 
 namespace ConsoleTest
 {
@@ -13,6 +14,10 @@ namespace ConsoleTest
             Console.WriteLine(output);
             output = DESEncrypt.DecryptDES(output, key);
             Console.WriteLine(output);
+
+
+            var url = @"http://baidu.com";
+            var task = HttpProvider.Get(url);
             Console.ReadKey();
         }
     }
