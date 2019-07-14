@@ -1,13 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.539
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XYFramework.Encrypt", "XYFramework.Encrypt\XYFramework.Encrypt.csproj", "{21573F53-1482-4639-A2E3-105E7A707CDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XYFramework.Common.Encrypt", "XYFramework.Encrypt\XYFramework.Common.Encrypt.csproj", "{21573F53-1482-4639-A2E3-105E7A707CDB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleTest", "ConsoleTest\ConsoleTest.csproj", "{05FD1719-42E8-4543-8648-2256C0C21010}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XYFramework.HttpRequest", "XYFramework.HttpRequest\XYFramework.HttpRequest.csproj", "{276C16F5-0928-4BBE-BADC-08819DEAA532}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XYFramework.HttpRequest", "XYFramework.HttpRequest\XYFramework.HttpRequest.csproj", "{276C16F5-0928-4BBE-BADC-08819DEAA532}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XYFramework.Validator", "XYFramework.Validator\XYFramework.Validator.csproj", "{49210A86-389D-45F1-A96C-F6A436EFD1AC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XYFramework.Common.Pattern.Observer", "XYFramework.Common.Pattern.Observer\XYFramework.Common.Pattern.Observer.csproj", "{E49D2788-1E5A-4AF3-93C4-B9A184B793E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XYFramework.BusinessLogic", "XYFramework.BusinessLogic\XYFramework.BusinessLogic.csproj", "{31AED7BB-F350-475A-8D93-1D85E74C951B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XYFramework.Authcode", "XYFramework.Authcode\XYFramework.Authcode.csproj", "{7823CB52-3A47-485D-BC94-7D9BF7107697}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XYFramework.QRCoder", "XYFramework.QRCode\XYFramework.QRCoder.csproj", "{786DBFAA-B79A-4193-AE53-040CD98B72BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestWebApi", "TestWebApi\TestWebApi.csproj", "{82681E1A-DDDD-4DD1-BDC6-499200898C36}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestTimer", "TestTimer\TestTimer.csproj", "{83A6010A-542A-4E0F-80DC-C76802928863}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XYFramework.Daemon", "XYFramework.Daemon\XYFramework.Daemon.csproj", "{73096DEA-60B8-44CA-972C-A37792CDA091}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XYFramework.Configuration", "XYFramework.ConfigurationManager\XYFramework.Configuration.csproj", "{F7D0E437-DBD5-4DDA-A0C9-AD3BF367C932}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +45,42 @@ Global
 		{276C16F5-0928-4BBE-BADC-08819DEAA532}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{276C16F5-0928-4BBE-BADC-08819DEAA532}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{276C16F5-0928-4BBE-BADC-08819DEAA532}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49210A86-389D-45F1-A96C-F6A436EFD1AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49210A86-389D-45F1-A96C-F6A436EFD1AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49210A86-389D-45F1-A96C-F6A436EFD1AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49210A86-389D-45F1-A96C-F6A436EFD1AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E49D2788-1E5A-4AF3-93C4-B9A184B793E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E49D2788-1E5A-4AF3-93C4-B9A184B793E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E49D2788-1E5A-4AF3-93C4-B9A184B793E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E49D2788-1E5A-4AF3-93C4-B9A184B793E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31AED7BB-F350-475A-8D93-1D85E74C951B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31AED7BB-F350-475A-8D93-1D85E74C951B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31AED7BB-F350-475A-8D93-1D85E74C951B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31AED7BB-F350-475A-8D93-1D85E74C951B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7823CB52-3A47-485D-BC94-7D9BF7107697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7823CB52-3A47-485D-BC94-7D9BF7107697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7823CB52-3A47-485D-BC94-7D9BF7107697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7823CB52-3A47-485D-BC94-7D9BF7107697}.Release|Any CPU.Build.0 = Release|Any CPU
+		{786DBFAA-B79A-4193-AE53-040CD98B72BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{786DBFAA-B79A-4193-AE53-040CD98B72BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{786DBFAA-B79A-4193-AE53-040CD98B72BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{786DBFAA-B79A-4193-AE53-040CD98B72BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82681E1A-DDDD-4DD1-BDC6-499200898C36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82681E1A-DDDD-4DD1-BDC6-499200898C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82681E1A-DDDD-4DD1-BDC6-499200898C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82681E1A-DDDD-4DD1-BDC6-499200898C36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83A6010A-542A-4E0F-80DC-C76802928863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83A6010A-542A-4E0F-80DC-C76802928863}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83A6010A-542A-4E0F-80DC-C76802928863}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83A6010A-542A-4E0F-80DC-C76802928863}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73096DEA-60B8-44CA-972C-A37792CDA091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73096DEA-60B8-44CA-972C-A37792CDA091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73096DEA-60B8-44CA-972C-A37792CDA091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73096DEA-60B8-44CA-972C-A37792CDA091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7D0E437-DBD5-4DDA-A0C9-AD3BF367C932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7D0E437-DBD5-4DDA-A0C9-AD3BF367C932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7D0E437-DBD5-4DDA-A0C9-AD3BF367C932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7D0E437-DBD5-4DDA-A0C9-AD3BF367C932}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

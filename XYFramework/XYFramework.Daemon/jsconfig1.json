@@ -1,0 +1,15 @@
+{
+  "exclude": [
+    "**/bin",
+    "**/bower_components",
+    "**/jspm_packages",
+    "**/node_modules",
+    "**/obj",
+    "**/platforms"
+  ],
+  "daemon": {
+    "excludedApps": [ "System", "Idle", "smss", "csrss", "wininit", "services", "lsass", "svchost", "fontdrvhost", "igfxCUIService", "Memory Compression", "mfemms", "mfevtps", "spoolsv", "mfevtps", "mcshield", "mfeesp", "mfefire", "mfefw", "mfehcs", "mfetp", "ibtsiva", "sqlwriter", "WmiPrvSE", "mfecanary", "conhost", "sqlservr", "msmdsrv", "macompatsvc", "SQLAGENT", "fdlauncher", "conhost", "fdhost", "conhost", "PresentationFontCache", "WmiPrvSE", "hpqwmiex", "OfficeClickToRun", "WmiPrvSE", "CcmExec", "CmRcService", "QualysAgent", "mfewc", "WmiPrvSE", "unsecapp", "AppVShNotify", "WmiPrvSE", "SearchIndexer", "PulseSecureService", "cav", "conhost", "PulseSecureService", "WmiPrvSE", "winlogon", "dwm", "client64", "WUDFHost", "ctfmon", "ChsIME", "masvc", "mfemactl", "vds", "policyHost", "audiodg", "SearchProtocolHost", "StandardCollector.Service", "SearchFilterHost", "igfxCUIService", "Memory Compression", "mfemms", "mfevtps", "spoolsv", "mfevtps", "mcshield", "mfeesp", "WmiApSrv", "gpupdate" ],
+    "watchApps": [ "C:\\WINDOWS\\system32\\notepad.exe" ]
+
+  }
+}

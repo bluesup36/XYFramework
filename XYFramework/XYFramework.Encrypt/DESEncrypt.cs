@@ -4,9 +4,9 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Linq;
 
-namespace XYFramework.Encrypt
+namespace XYFramework.Common.Encrypt
 {
-    public class DESEncrypt
+    public class DESEncrypt : IEncryptBase
     {
         /// <summary>
         /// Encrypt with DES
@@ -14,7 +14,7 @@ namespace XYFramework.Encrypt
         /// <param name="pToEncrypt">content to encrypt</param>
         /// <param name="sKey">encrypt key</param>
         /// <returns>base64 string</returns>
-        public static string EncryptDES(string pToEncrypt, string sKey)
+        public string Encrypt(string pToEncrypt, string sKey)
         {
             using (DESCryptoServiceProvider des = new DESCryptoServiceProvider())
             {
@@ -41,7 +41,7 @@ namespace XYFramework.Encrypt
         /// <param name="pToDecrypt">content to decrypt</param>
         /// <param name="sKey">decrypt key</param>
         /// <returns>raw content</returns>
-        public static string DecryptDES(string pToDecrypt, string sKey)
+        public string Decrypt(string pToDecrypt, string sKey)
         {
             byte[] inputByteArray = Convert.FromBase64String(pToDecrypt);
             using (DESCryptoServiceProvider des = new DESCryptoServiceProvider())
